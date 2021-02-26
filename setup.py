@@ -19,7 +19,7 @@ setup(name='thex',
     #   version=get_version(open('src/svim_asm/svim-asm').read()),
       description='',
     #   long_description=long_description,
-    #   url='https://github.com/eldariont/svim-asm',
+      url='https://github.com/harris-2374/conda-dash-app.git',
       author='Andrew Harris',
       author_email='ajharris.2374@gmail.com',
       license='GPLv3',
@@ -31,9 +31,8 @@ setup(name='thex',
       'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
       'Programming Language :: Python :: 3.6'
       ],
-      keywords='svim-asm SV assembly structural variation caller',
-      packages = find_packages("thex"),
-      package_dir = {"": "thex"},
-      data_files = [("", ["LICENSE"])],
-      zip_safe=False,
-      scripts=['thex/app.py'])
+      packages = find_packages("src"),
+      package_dir = {"": "src"},
+      scripts=['src/thex', 'src/app.py'],
+)
+
