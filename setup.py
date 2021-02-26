@@ -15,11 +15,11 @@ def get_version(string):
       return version_str
 
 
-setup(name='thex',
+setup(name='THEx',
     #   version=get_version(open('src/svim_asm/svim-asm').read()),
       description='',
     #   long_description=long_description,
-      url='https://github.com/harris-2374/conda-dash-app.git',
+      # url='https://github.com/harris-2374/conda-dash-app.git',
       author='Andrew Harris',
       author_email='ajharris.2374@gmail.com',
       license='GPLv3',
