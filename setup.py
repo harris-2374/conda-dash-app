@@ -33,6 +33,9 @@ setup(name='THEx',
       ],
       packages = find_packages("src"),
       package_dir = {"": "src"},
-      scripts=['src/thex', 'src/app.py'],
+      scripts=['src/thex.py', 'src/app.py'],
+      # entry_points = {
+      #   "console_scripts": ['thex = src.thex.py:main']
+      #   },
 )
 

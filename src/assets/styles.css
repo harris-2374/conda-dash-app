@@ -1,0 +1,39 @@
+Div {
+    font-family: Arial;
+    font-size: 18pt;
+    /* padding: 2px; */
+    /* margin: 5px; */
+}
+
+.container-div {
+    border: 2px orange solid;
+    border-radius: 5px;
+    height: 95vh;
+    width: 100%;
+}
+.topograph {
+    height: 30vh;
+    width: 100%;
+}
+
+.div-boxes {
+    border: 2px orange solid;
+    border-radius: 5px;
+}
+
+.control-panel {
+    border: 2px orange solid;
+    border-radius: 5px;
+    padding: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.title {
+    color: black;
+}
+
+.hidden-div {
+    display: none;
+}
+
