@@ -14,7 +14,7 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 
-from flask_caching import Cache
+# from flask_caching import Cache
 
 from apps import navbar
 from app import app

@@ -26,8 +26,8 @@ def Navbar(current_program=None):
                             href="/apps/tree_viewer"
                         ),
                         dbc.DropdownMenuItem(
-                            "P-Distance Graphing Tool",
-                            href="/apps/p_distance_viewer",
+                            "p-Distance Tracer",
+                            href="/apps/p_distance_tracer",
                         ),
                         dbc.DropdownMenuItem(
                             "Data Preparation",
