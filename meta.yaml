@@ -5,31 +5,36 @@ package:
   version: {{ version }}
 
 source:
-  # url: https://pypi.io/packages/source/i/imagesize/imagesize-{{ version }}.tar.gz
+  url: https://github.com/harris-2374/conda-dash-app.git
 
 build:
   noarch: python
-  number: 0.0.0
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0.0.1
+  entry_points:
+    - thex src.thex:main
 
 requirements:
   host:
     - python
     - pip
+    - conda
+    - setuptools
+
   run:
     - python
+    # - dash
+    # - dash-bootstrap-components
+    # - ete3
+    # - biopython
+    # - pandas
+    # - openpyxl
 
-# test:
-#   imports:
-#     - imagesize
 
 about:
   # home: https://github.com/shibukawa/imagesize_py
   license: MIT
-  summary: 'THEx'
-  description: |
-    This module analyzes jpeg/jpeg2000/png/gif image header and
-    return image size.
+  summary: 'thex'
+  description: ''
   # dev_url: https://github.com/shibukawa/imagesize_py
   # doc_url: https://pypi.python.org/pypi/imagesize
   # doc_source_url: https://github.com/shibukawa/imagesize_py/blob/master/README.rst
